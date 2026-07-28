@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaGraduationCap, FaCode, FaRocket } from 'react-icons/fa6';
 import './Timeline.css';
-
 import senam from '../../assets/timeline/senam.jpeg';
 
 const timelineData = [
@@ -9,7 +8,7 @@ const timelineData = [
     year: '19 Juli 2026',
     title: 'Senam Minggu',
     category: 'Kemasyarakatan, Olahraga',
-    image: 'senam',
+    image: senam,
     icon: <FaCode />,
     desc: 'Kegiatan senam bersama masyarakat untuk meningkatkan kesehatan dan mempererat hubungan antara mahasiswa KKN dengan warga.',
     link: '#',
@@ -62,23 +61,17 @@ export default function Timeline() {
             </div>
 
             <div className="timeline-content card glass">
-
               <img
                 src={item.image}
                 alt={item.title}
                 className="timeline-image"
               />
-
               <span className="timeline-year mono">{item.year}</span>
-
               <span className="timeline-category">
                 {item.category}
               </span>
-
               <h3 className="timeline-title">{item.title}</h3>
-
               <p className="timeline-desc">{item.desc}</p>
-
               <button
                 className="timeline-btn"
                 onClick={() => window.location.href = item.link}
