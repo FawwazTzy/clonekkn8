@@ -23,7 +23,7 @@ export const socialLinks = [
 ];
 
 export const contactInfo = {
-  email: 'fawazadvan23@gmail.com',
+  email: 'tubabakkn8@gmail.com',
   location: 'SMPN 8 Tulang Bawang Barat, Lampung - Indonesia',
   availability: 'Community Service Program',
   roles: ['Teaching', 'Innovation', 'Social Activities'],

@@ -7,6 +7,7 @@ import About from './components/sections/About';
 // import TechStack from './components/sections/TechStack'; // Nanti bisa diganti jadi Program Kerja
 import Projects from './components/sections/Projects';   // Nanti bisa dijadikan Dokumentasi
 import Contact from './components/sections/Contact';
+import Certificates from './components/sections/Certificates';
 import Footer from './components/layout/Footer';
 
 import './styles/themes.css';
@@ -85,6 +86,7 @@ export default function App() {
           <About />
           {/* <TechStack /> */}
           <Projects />
+          <Certificates />
           <Contact />
         </main>
 

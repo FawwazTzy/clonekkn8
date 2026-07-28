@@ -1,15 +1,15 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaMapPin, FaGraduationCap, FaRocket, FaCode } from 'react-icons/fa6';
+import { FaMapPin, FaUserGroup, FaRocket, FaCode } from 'react-icons/fa6';
 import SectionHeader from '../layout/SectionHeader';
 import Card from '../ui/Card';
 import Timeline from '../ui/Timeline';
 import './About.css';
 
 const stats = [
-  { label: 'KKN Members', value: '10', icon: <FaGraduationCap /> },
-  { label: 'Work Programs', value: '8+', icon: <FaRocket /> },
-  { label: 'Community Activities', value: '15+', icon: <FaCode /> },
+  { label: 'Anggota KKN', value: '10', icon: <FaUserGroup /> },
+  { label: 'Program kerja', value: '(on going)', icon: <FaRocket /> },
+  { label: 'Aktivitas kemasyarakatan', value: '(on going)', icon: <FaCode /> },
 ];
 
 export default function About() {
@@ -34,8 +34,8 @@ export default function About() {
       <div className="container">
         <SectionHeader
           number="08"
-          title="About Us"
-          subtitle="Empowering education, strengthening communities, and creating meaningful impact through collaboration."
+          title="Tentang kami"
+          subtitle="Memperkuat edukasi, memperkuat komunitas, and membuat dampak yang bermanfaat melalui kolaborasi."
         />
 
         <div className="about-content">
@@ -48,19 +48,25 @@ export default function About() {
             transition={{ duration: 0.6 }}
           >
             <p className="about-intro">
-              We are <strong>KKN Group 8</strong> from Universitas Muhammadiyah Metro, assigned to
-              <strong> SMPN 8 Tulang Bawang</strong>. Through this Community Service Program (KKN),
-              we are committed to contributing to education, creativity, and community empowerment
-              while building meaningful relationships with students, teachers, and the local community.
+              Kami adalah <strong>KKN Kelompok 8</strong> dari <strong>Universitas Muhammadiyah Metro</strong> yang
+              melaksanakan program Kuliah Kerja Nyata (KKN) di
+              <strong> SMPN 8 Tulang Bawang</strong>. Melalui program ini, kami berkomitmen untuk memberikan
+              kontribusi nyata dalam bidang pendidikan, kreativitas, dan pemberdayaan masyarakat, serta
+              membangun hubungan yang baik dengan siswa, guru, dan masyarakat sekitar.
             </p>
+
             <p>
-              Our activities focus on educational innovation, digital literacy, environmental awareness,
-              social engagement, and collaborative programs designed to support the school's development
-              and inspire students to reach their full potential.
+              Program kerja kami berfokus pada inovasi pendidikan, literasi digital, kepedulian terhadap
+              lingkungan, pengabdian kepada masyarakat, serta berbagai kegiatan kolaboratif yang dirancang
+              untuk mendukung perkembangan sekolah dan menginspirasi siswa agar terus berkembang sesuai
+              dengan potensi yang dimiliki.
             </p>
+
             <p>
-              Throughout the program, we aim to create sustainable initiatives that leave positive impacts
-              on the school community while strengthening teamwork, leadership, and social responsibility.
+              Selama pelaksanaan KKN, kami berupaya menghadirkan berbagai program yang berkelanjutan dan
+              memberikan dampak positif bagi lingkungan sekolah. Melalui kegiatan tersebut, kami juga
+              mengembangkan nilai-nilai kerja sama, kepemimpinan, tanggung jawab, serta semangat pengabdian
+              kepada masyarakat.
             </p>
 
             <div className="about-learning">

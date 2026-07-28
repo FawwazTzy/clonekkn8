@@ -42,9 +42,9 @@ export default function Projects() {
     <section id="projects" className="section projects-section">
       <div className="container">
         <SectionHeader
-          number="03"
-          title="Projects"
-          subtitle="A curated showcase of what I've built, what I'm building, and what's next."
+          number="08"
+          title="Anggota KKN 8"
+          subtitle="Anggota-anggota yang pekerja keras dan rajin!"
         />
 
         {/* Filter Tabs */}

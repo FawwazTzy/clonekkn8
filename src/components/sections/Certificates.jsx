@@ -14,8 +14,8 @@ export default function Certificates() {
     <section id="certificates" className="section">
       <div className="container">
         <SectionHeader
-          number="04"
-          title="Certificates"
+          number="08"
+          title="Program Kerja"
           subtitle="Continuous learning, validated by industry-recognized certifications."
         />
 
